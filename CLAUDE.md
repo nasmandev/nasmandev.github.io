@@ -59,3 +59,26 @@ The site is configured via `hugo.toml`. Key settings include:
 ## Hugo Version
 
 This project uses Hugo v0.151.2+extended (installed via Homebrew on macOS).
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
+
+### GitHub Pages Setup (First Time Only)
+1. Go to repository Settings → Pages
+2. Under "Build and deployment", set Source to "GitHub Actions"
+3. The workflow will automatically build and deploy on push to main
+
+### Custom Domain Setup
+To use nasman.dev:
+1. Add DNS records at your domain registrar:
+   - A records pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153)
+   - OR CNAME record pointing to nasmandev.github.io
+2. In repository Settings → Pages → Custom domain, enter: nasman.dev
+3. Enable "Enforce HTTPS" after DNS propagates
+
+### Deployment Workflow
+- Located at `.github/workflows/hugo.yml`
+- Runs on every push to main
+- Builds with Hugo and deploys to GitHub Pages
+- Check deployment status at: https://github.com/nasmandev/nasmandev/actions
