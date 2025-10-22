@@ -1,0 +1,46 @@
+baseURL = 'https://nasman.dev/'
+languageCode = 'en-us'
+title = 'nasman.dev'
+theme = 'PaperMod'
+
+[params]
+description = "Notes on code and security"
+author = "nasman.dev"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+[params.homeInfoParams]
+Title = "nasman.dev"
+Content = "Notes on code and security"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/nasmandev"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 30
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
