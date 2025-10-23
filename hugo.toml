@@ -29,22 +29,16 @@ url = "https://x.com/nasmandev"
 
 [menu]
 [[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 10
-
-[[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
-weight = 20
+weight = 10
 
 [[menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
-weight = 30
+weight = 20
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
