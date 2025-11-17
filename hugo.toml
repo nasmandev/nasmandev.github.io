@@ -16,7 +16,7 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
 [params.homeInfoParams]
-Title = "nasman.dev"
+Title = "Näsman Creative"
 Content = "Notes on code and security"
 
 [[params.socialIcons]]
