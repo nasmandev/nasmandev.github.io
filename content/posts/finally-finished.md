@@ -1,9 +1,9 @@
 +++
 title = 'MiniMoments is Finally Done'
-date = '2025-11-17T21:50:56+01:00'
+date = '2025-12-09T21:50:56+01:00'
 draft = false
 tags = ['development', 'ai', 'productivity', 'minimoments']
-description = 'After years of tinkering, my photo app for kids MiniMoments is actually finished and published. Here's what changed.'
+description = "After years of tinkering, my photo app for kids MiniMoments is actually finished and published. Here's what changed."
 +++
 
 I've been working on MiniMoments for longer than I care to admit. It started as a simple idea. A photo app for kids so they can take pictures without creating chaos in their parents' photo library. But like most of my hobby projects, it became this endless cycle of "just one more feature" and "maybe I should refactor this part first."
