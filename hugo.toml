@@ -15,10 +15,6 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
-[params.homeInfoParams]
-Title = "Näsman Creative"
-Content = "Notes on code and security"
-
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/nasmandev"
