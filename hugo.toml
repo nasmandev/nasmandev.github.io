@@ -14,6 +14,11 @@ ShowCodeCopyButtons = true
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
+mainSections = ["posts"]
+
+[params.homeInfoParams]
+Title = "Näsman Creative"
+Content = "Notes on code and security"
 
 [[params.socialIcons]]
 name = "github"
