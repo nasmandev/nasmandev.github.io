@@ -5,6 +5,26 @@ title = 'Projects'
 disableShare = true
 +++
 
+## Storylines
+
+<div class="project-card">
+<img src="/images/storylines-icon.png" alt="Storylines icon" class="project-icon">
+
+Storylines is a story organizer for writers that works alongside your existing text editor. It gives you the bird's-eye view of your manuscript with visual tools for managing narrative structure — timeline visualization, character and subplot tracking, story arc and pacing views, and automatic scene detection.
+
+Works with files from Ulysses, iA Writer, Scrivener, Word, and any app that supports Markdown, plain text, or DOCX. Your files stay on your computer — nothing gets uploaded to any server.
+
+AI-powered analysis helps extract metadata, identify structural weaknesses, and assess manuscript readiness — acting as analyst, not writer.
+
+**Website:** [storylines.work](https://www.storylines.work/)
+
+**Status:** Currently in beta — free to use, no credit card required.
+
+**Support:** Contact me via [X/Twitter](https://x.com/nasmandev) for support and questions.
+</div>
+
+---
+
 ## MiniMoments
 
 <div class="project-card">
