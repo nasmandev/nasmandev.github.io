@@ -1,5 +1,5 @@
 baseURL = 'https://nasman.dev/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'nasman.dev'
 theme = 'PaperMod'
 

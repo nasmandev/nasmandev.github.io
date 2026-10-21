@@ -53,12 +53,12 @@ Create new content using the archetype template from `archetypes/default.md`
 
 The site is configured via `hugo.toml`. Key settings include:
 - `baseURL` - The root URL of the site
-- `languageCode` - Site language
+- `locale` - Site language
 - `title` - Site title
 
 ## Hugo Version
 
-This project uses Hugo v0.151.2+extended (installed via Homebrew on macOS).
+This project uses Hugo v0.168.0+extended (installed via Homebrew on macOS).
 
 ## Deployment
 
